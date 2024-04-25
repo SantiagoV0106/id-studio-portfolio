@@ -1,7 +1,14 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.hero {
+  height: 90vh;
+
+  background-position: top;
+
+  /* Radial filter */
+  background: radial-gradient(85.71% 85.71% at 50% 50%, rgba(6, 6, 6, 0.00) 0%, #060606 39.53%),
+  url('../src/assets/images/bg-texture.png');
 }
 
+.hero h1 {
+  text-align: center;
+  font-size: 175px;
+}

@@ -1,14 +1,20 @@
 // Style
 import './App.css'
-import { Header } from './components'
+import { Header, Tags } from './components'
 
 function App() {
 
   return (
     <>
       <Header />
-      <h1>Hola h1</h1>
-      <h3>Hola h3</h3>
+      <section className="hero section">
+        <h1>ID STUDIOS</h1>
+        <Tags
+        bgColor={'--orange'}
+        number={1}
+        name={`console.log(“hello world”);`}
+        />
+      </section>
     </>
   )
 }

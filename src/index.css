@@ -1,12 +1,12 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter;
   line-height: 1.5;
 
   /* Colors */
   --white: #fff;
   --black: #060606;
   --secondary-black: #181818;
-  --orage: #F24405;
+  --orange: #F24405;
   --secondary-orange: #F28705;
 
   background-color: var(--black);
@@ -39,4 +39,12 @@ h1 {
 h3 {
   font-size: 40px;
   font-weight: 500;
+}
+
+p {
+  font-size: 20px;
+}
+
+.section {
+  margin: 0 124px;
 }

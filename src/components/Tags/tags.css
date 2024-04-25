@@ -1,0 +1,12 @@
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 13px;
+    border-radius: 3px;
+    width: 377px;
+}
+
+.tag p {
+    font-family: "Source Code Pro", monospace;
+}
