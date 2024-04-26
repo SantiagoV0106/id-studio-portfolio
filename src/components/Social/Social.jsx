@@ -7,7 +7,8 @@ import './social.css'
 
     export function Social({link, icon}) {
     return(
-        <a 
+        <a
+        target='_blank' 
         href={link}
         className="social">
         {icon}
