@@ -1,7 +1,7 @@
 export const socialLinks = [
     {
         name : 'Linkedin',
-        link : 'https://www.behance.net/santiagovelasco'  
+        link : 'https://www.linkedin.com/in/santiago-velasco-carrillo'  
     },
     {
         name : 'Behance',

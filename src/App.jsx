@@ -49,7 +49,7 @@ function App() {
             <div className="social-container">
               <p>Check Out My</p>
               <Social
-                link='www.linkedin.com/in/santiago-velasco-carrillo'
+                link='https://www.linkedin.com/in/santiago-velasco-carrillo'
                 icon={<FaLinkedin />}
               />
               <Social
