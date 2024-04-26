@@ -2,11 +2,63 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 0 10px;
     padding: 10px 13px;
     border-radius: 3px;
-    width: 377px;
+    max-width: 377px;
+    position: absolute;
+
+    transition: all 0.3s ease;
+}
+
+.tag:hover {
+    transform: scale(1.1);
 }
 
 .tag p {
     font-family: "Source Code Pro", monospace;
+}
+
+.one {
+    top: 30%;
+    left: 22%;
+}
+.two {
+    top: 40%;
+    right: 24%;
+}
+
+.three {
+    bottom: 28%;
+    left: 50%;
+}
+
+
+@media screen and (max-width : 1740px) {
+    .one {
+        left: 18%;
+    }
+    .two {
+        right: 18%;
+    } 
+}
+
+@media screen and (max-width : 1540px) {
+    .one {
+        left: 14%;
+    }
+    .two {
+        right: 16%;
+    } 
+}
+
+@media screen and (max-width : 1440px) {
+    .one {
+        left: 12%;
+    }
+    .two {
+        top: 40%;
+        right: 16%;
+    }
+    
 }

@@ -1,0 +1,34 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    min-width: 377px;
+    padding: 80px 57px;
+}
+
+.skill img {
+    width: 71px;
+}
+
+.secondary {
+    background-color: var(--secondary-black);
+}
+
+.secondary .hexagon {
+    background-color: var(--orange);
+
+}
+
+.primary .hexagon {
+    background-color: var(--white);
+
+}
+
+.primary {
+    background-color: var(--orange);
+}
+
+.skill .title {
+    font-size: 24px;
+    font-weight: 500;
+}

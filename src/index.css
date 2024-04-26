@@ -45,6 +45,17 @@ p {
   font-size: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .section {
   margin: 0 124px;
+}
+
+
+@media screen and (max-width : 1440px) {
+  .section {
+    margin: 0 104px;
+  }
 }

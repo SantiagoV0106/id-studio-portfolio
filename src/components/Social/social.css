@@ -5,7 +5,7 @@
     width: max-content;
     height: auto;
     border: none;
-    background-color: var(--secondary-blue);
+    background-color: var(--orange);
     border-radius: 50%;
 
     text-decoration: none;
@@ -17,7 +17,7 @@
 
 
 .social svg {
-    color: var(--main-black);
+    color: var(--black);
     font-size: 30px;
     cursor: pointer;
 }

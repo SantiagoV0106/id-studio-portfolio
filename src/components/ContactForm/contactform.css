@@ -1,0 +1,99 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 80px 0;
+    width: 50%;
+}
+
+.contact-form .secondary-btn {
+    align-self: flex-end;
+    
+}
+
+/* Inputs */
+
+.input-group {
+    position: relative;
+}
+
+.input-group input {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--orange);
+    background-color: transparent;
+
+    padding: 22px 20px;
+
+    font-size: 20px;
+    color: var(--white);
+
+    outline: none;
+    cursor: pointer;
+
+
+}
+
+.input-group textarea {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--orange);
+    outline: none;
+    padding: 22px 24px;
+    font-family: 'inter';
+    color: var(--white);
+    font-size: 20px;
+
+    resize: none;
+    cursor: pointer;
+
+}
+
+.input-group label {
+
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+
+    padding: 15px 20px;
+
+    font-size: 20px;
+    color: var(--white);
+
+}
+
+.input-group :is(input:focus, input:not(:placeholder-shown))~label {
+    transform: translateY(-50%) scale(.8);
+    color: var(--orange);
+
+    padding: 0 0 20px 0;
+}
+
+.input-group input:not(:valid):not(:placeholder-shown) {
+    border-bottom: 1px solid red;
+}
+
+.input-group input:not(:valid):not(:placeholder-shown)~label {
+    transform: translateY(-50%) scale(.8);
+    color: red;
+    padding: 0 0 20px 0;
+
+}
+
+.primary-btn {
+    cursor: pointer;
+    align-self: flex-start;
+    padding: 18px 52px;
+    font-size: 20px;
+    color: var(--white);
+
+    border-radius: 8px;
+    border: none;
+    background-color: var(--orange);
+
+    transition: all 0.3s ease;
+}
+.primary-btn:active {
+    transform: scale(0.9);
+}

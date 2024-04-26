@@ -1,14 +1,104 @@
 .hero {
+  padding: 50px 0 ;
   height: 90vh;
-
   background-position: top;
-
   /* Radial filter */
   background: radial-gradient(85.71% 85.71% at 50% 50%, rgba(6, 6, 6, 0.00) 0%, #060606 39.53%),
-  url('../src/assets/images/bg-texture.png');
+    url('../src/assets/images/bg-texture.png');
 }
 
 .hero h1 {
   text-align: center;
   font-size: 175px;
+}
+
+.info-container {
+  text-align: center;
+
+  position: relative;
+  margin: -110px 0 50px;
+
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+
+  position: absolute;
+  top: 70%;
+  left: 0;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 50px;
+
+  padding: 50px 0;
+
+}
+
+.my-work {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 114px 0 0;
+  gap: 70px 40px;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.about-me-container {
+  width: 45%;
+}
+.about-me-container h3{
+  margin: 0 0 30px;
+}
+
+.about-me-subtitle {
+  font-size: 24px;
+  color: var(--orange);
+}
+
+.about-me a {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0 20px;
+
+  font-size: 22px;
+
+  color: var(--white);
+  border: 1px solid var(--orange);
+  margin: 50px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+  width: 40%;
+
+  transition: all 0.3s ease;
+
+  cursor: pointer;
+}
+
+.about-me a svg {
+
+ font-size: 24px;
+
+}
+.about-me a:hover {
+ background-color: var(--orange);
+}
+
+.about-me img {
+  height: 685px;
+}
+
+.contact-me {
+  padding: 124px 0;
 }
