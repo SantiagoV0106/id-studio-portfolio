@@ -10,7 +10,9 @@ import './project.css'
 export function Project({ projectLink, projectImg, projectName }) {
     console.log(projectImg);
     return (
-        <a className="project" href={projectLink}>
+        <a 
+        target='_blank'
+        className="project" href={projectLink}>
             <div
                 className="img-container">
                 <img src={projectImg} alt={projectName} />
